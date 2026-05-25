@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="palavras 1.js" defer></script>
+    <script src="forca.js" defer></script>
+    <style>
+        .tentativas {
+            list-style: none;
+            display: flex;
+            gap:5px;
+            font-size: 2em;
+        }
+        .tentativas li {
+            border-bottom: 1px solid #000;
+            padding: 0 30px;
+        }
+        input {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+    <button id="comecar">Começar</button>
+    <div class="bonequinho">
+
+    </div>
+    <div class="forca">
+
+        <ul class="tentativas">
+            
+        </ul>
+    </div>
+
+    <div class="tabuleiro">
+        <input type="text" id="entrada" maxlength="1">
+        <button id="jogar">Tentar</button>
+    </div>
+    
+</body>
+</html>
